@@ -11,10 +11,12 @@ const morganOption = NODE_ENV === "production" ? "tiny" : "common";
 
 app.use(morgan(morganOption));
 app.use(helmet());
+app.use(express.json())
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Hello, world!");
+  console.log(req.body);
+  res.send("A POST Request");
 });
 
 app.use(function errorHandler(error, req, res, next) {

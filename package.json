@@ -1,7 +1,7 @@
 {
-  "name": "express-boilerplate",
+  "name": "express_store",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tthis is a server store",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js",
@@ -16,14 +16,25 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "helmet": "^3.22.0",
-    "morgan": "^1.10.0"
+    "helmet": "^3.22.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
+    "express": "^4.17.1",
     "mocha": "^7.1.1",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-macaw/dasha-express-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-macaw/dasha-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-macaw/dasha-express-boilerplate#readme"
 }
