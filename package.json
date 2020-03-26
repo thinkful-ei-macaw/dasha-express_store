@@ -16,7 +16,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
-    "helmet": "^3.22.0"
+    "helmet": "^3.22.0",
+    "uuid": "^7.0.2"
   },
   "devDependencies": {
     "chai": "^4.2.0",
